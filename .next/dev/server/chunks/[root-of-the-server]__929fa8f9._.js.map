@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/agent-portal-dashboard/app/api/users/route.js"],"sourcesContent":["import { NextResponse } from \"next/server\";\r\n\r\n// GET /api/users\r\nexport async function GET() {\r\n  return NextResponse.json({\r\n    success: true,\r\n    users: [\r\n      { id: 1, name: \"Ali\" },\r\n      { id: 2, name: \"Sara\" }\r\n    ]\r\n  });\r\n}\r\n\r\n// POST /api/users\r\nexport async function POST(request) {\r\n  const body = await request.json();\r\n\r\n  return NextResponse.json(\r\n    {\r\n      success: true,\r\n      message: \"User created\",\r\n      data: body\r\n    },\r\n    { status: 201 }\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAA;;AAGO,eAAe;IACpB,OAAO,2LAAY,CAAC,IAAI,CAAC;QACvB,SAAS;QACT,OAAO;YACL;gBAAE,IAAI;gBAAG,MAAM;YAAM;YACrB;gBAAE,IAAI;gBAAG,MAAM;YAAO;SACvB;IACH;AACF;AAGO,eAAe,KAAK,OAAO;IAChC,MAAM,OAAO,MAAM,QAAQ,IAAI;IAE/B,OAAO,2LAAY,CAAC,IAAI,CACtB;QACE,SAAS;QACT,SAAS;QACT,MAAM;IACR,GACA;QAAE,QAAQ;IAAI;AAElB"}}]
+}

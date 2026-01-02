@@ -1,0 +1,22 @@
+-- Insert 20 sample agents into the workspaces table
+INSERT INTO workspaces (id, agent_name, status, agent_status, created_at) VALUES
+('agent-001', 'Sarim', 'active', 'READY', NOW()),
+('agent-002', 'Sarah Johnson', 'active', 'IN-CALL', NOW()),
+('agent-003', 'Mike Davis', 'suspended', 'PAUSE', NOW()),
+('agent-004', 'Emily Brown', 'active', 'READY', NOW()),
+('agent-005', 'David Wilson', 'active', 'PAUSE', NOW()),
+('agent-006', 'Jessica Lee', 'active', 'IN-CALL', NOW()),
+('agent-007', 'Robert Taylor', 'suspended', 'PAUSE', NOW()),
+('agent-008', 'Amanda White', 'active', 'READY', NOW()),
+('agent-009', 'Chris Martin', 'active', 'READY', NOW()),
+('agent-010', 'Lisa Anderson', 'suspended', 'PAUSE', NOW()),
+('agent-011', 'James Thomas', 'active', 'IN-CALL', NOW()),
+('agent-012', 'Rebecca Garcia', 'active', 'READY', NOW()),
+('agent-013', 'Daniel Rodriguez', 'active', 'PAUSE', NOW()),
+('agent-014', 'Jennifer Martinez', 'suspended', 'PAUSE', NOW()),
+('agent-015', 'William Robinson', 'active', 'READY', NOW()),
+('agent-016', 'Michelle Clark', 'active', 'IN-CALL', NOW()),
+('agent-017', 'Joseph Lewis', 'active', 'READY', NOW()),
+('agent-018', 'Laura Walker', 'suspended', 'PAUSE', NOW()),
+('agent-019', 'Matthew Hall', 'active', 'PAUSE', NOW()),
+('agent-020', 'Nancy Allen', 'active', 'READY', NOW());

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/agent-portal-dashboard/app/%28admin%29/admin/about/page.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst about = () => {\r\n  return (\r\n    <div>\r\n      i am about page \r\n    </div>\r\n  )\r\n}\r\n\r\nexport default about\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,QAAQ;IACZ,qBACE,yRAAC;kBAAI;;;;;;AAIT;uCAEe"}}]
+}

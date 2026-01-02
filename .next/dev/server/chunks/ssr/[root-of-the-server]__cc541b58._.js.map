@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/agent-portal-dashboard/app/page.tsx"],"sourcesContent":["import { redirect } from \"next/navigation\"\n\nexport default function Home() {\n  redirect(\"/admin\")\n}\n\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAEe,SAAS;IACtB,IAAA,4OAAQ,EAAC;AACX"}}]
+}

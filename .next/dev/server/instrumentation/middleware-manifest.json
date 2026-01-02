@@ -1,0 +1,12 @@
+{
+  "sorted_middleware": [],
+  "middleware": {},
+  "instrumentation": {
+    "files": [
+      "server/edge/chunks/Desktop_agent-portal-dashboard_9e2706e6._.js",
+      "server/edge/chunks/turbopack-Desktop_agent-portal-dashboard_edge-wrapper_8ed8ca62.js"
+    ],
+    "name": "instrumentation"
+  },
+  "functions": {}
+}

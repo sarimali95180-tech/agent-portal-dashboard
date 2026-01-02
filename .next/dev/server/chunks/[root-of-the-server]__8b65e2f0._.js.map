@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/agent-portal-dashboard/app/api/auth/logout/route.ts"],"sourcesContent":["import { NextRequest, NextResponse } from \"next/server\"\r\n\r\nexport async function POST(request: NextRequest) {\r\n  try {\r\n    // Clear any authentication cookies or sessions\r\n    const response = NextResponse.json(\r\n      { success: true, message: \"Logged out successfully\" },\r\n      { status: 200 }\r\n    )\r\n\r\n    // Clear auth cookies if you're using them\r\n    response.cookies.delete(\"authToken\")\r\n    response.cookies.delete(\"session\")\r\n\r\n    return response\r\n  } catch (error) {\r\n    console.error(\"Logout error:\", error)\r\n    return NextResponse.json(\r\n      { success: false, error: \"Logout failed\" },\r\n      { status: 500 }\r\n    )\r\n  }\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAEO,eAAe,KAAK,OAAoB;IAC7C,IAAI;QACF,+CAA+C;QAC/C,MAAM,WAAW,2LAAY,CAAC,IAAI,CAChC;YAAE,SAAS;YAAM,SAAS;QAA0B,GACpD;YAAE,QAAQ;QAAI;QAGhB,0CAA0C;QAC1C,SAAS,OAAO,CAAC,MAAM,CAAC;QACxB,SAAS,OAAO,CAAC,MAAM,CAAC;QAExB,OAAO;IACT,EAAE,OAAO,OAAO;QACd,QAAQ,KAAK,CAAC,iBAAiB;QAC/B,OAAO,2LAAY,CAAC,IAAI,CACtB;YAAE,SAAS;YAAO,OAAO;QAAgB,GACzC;YAAE,QAAQ;QAAI;IAElB;AACF"}}]
+}

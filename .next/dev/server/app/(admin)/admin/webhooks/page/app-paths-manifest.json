@@ -1,0 +1,3 @@
+{
+  "/(admin)/admin/webhooks/page": "app/(admin)/admin/webhooks/page.js"
+}

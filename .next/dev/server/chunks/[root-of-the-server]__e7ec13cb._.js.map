@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/agent-portal-dashboard/app/api/test/route.js"],"sourcesContent":["import { NextResponse } from \"next/server\";\r\n\r\n// GET → test API\r\nexport async function GET() {\r\n  return NextResponse.json({\r\n    status: \"OK\",\r\n    message: \"Next.js REST API is working 🚀\",\r\n    time: new Date().toISOString()\r\n  });\r\n}\r\n\r\n// POST → test API\r\nexport async function POST(request) {\r\n  const data = await request.json();\r\n\r\n  return NextResponse.json({\r\n    status: \"OK\",\r\n    message: \"POST request received\",\r\n    receivedData: data\r\n  });\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAA;;AAGO,eAAe;IACpB,OAAO,2LAAY,CAAC,IAAI,CAAC;QACvB,QAAQ;QACR,SAAS;QACT,MAAM,IAAI,OAAO,WAAW;IAC9B;AACF;AAGO,eAAe,KAAK,OAAO;IAChC,MAAM,OAAO,MAAM,QAAQ,IAAI;IAE/B,OAAO,2LAAY,CAAC,IAAI,CAAC;QACvB,QAAQ;QACR,SAAS;QACT,cAAc;IAChB;AACF"}}]
+}

@@ -1,0 +1,11 @@
+{
+  "/(admin)/admin/api/page": "app/(admin)/admin/api/page.js",
+  "/(admin)/admin/database/page": "app/(admin)/admin/database/page.js",
+  "/(admin)/admin/health/page": "app/(admin)/admin/health/page.js",
+  "/(admin)/admin/page": "app/(admin)/admin/page.js",
+  "/(admin)/admin/users/page": "app/(admin)/admin/users/page.js",
+  "/(admin)/admin/workspaces/page": "app/(admin)/admin/workspaces/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/workspaces/route": "app/api/workspaces/route.js",
+  "/page": "app/page.js"
+}
